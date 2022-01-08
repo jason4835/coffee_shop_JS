@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #8a624a;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+h1 {
+	color: white;
+	font-family: 'Romanesco', cursive;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif
+}
+
+.order a {
+	text-decoration: none;
+	color: white;
+  text-align: center;
+}
+
+.order a:hover {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+.order {
+	background-color: black;
+	color: white;
+	border: none;
+	width: 80px;
+	height: 50px;
+	border-radius: 4px;
+	transition: 0.4s;
+	text-align: center;
+}
+
+.order:hover {
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+.questions {
+	width: 80%;
+	max-width: 400px;
+	margin: 20px auto;
+	color: white;
+	height: 200px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 7px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.questions h3 {
+	margin: 8px;
+  padding-top: 25px;
+	cursor: pointer;
+  font-family: 'Titiullium Web', sans-serif;
+	text-align: center;
+}
+
+.questions li {
+  width: 150px;
+  margin: 0 auto;
+  padding: 5.5px;
+  border-radius: 3px;
+  font-family: 'Titiullium Web', sans-serif;
+	text-align: center;
+}
+
+.questions li:hover {
+	background: black;
+	width: 150px;
+	margin: 0 auto;
+	padding: 4px;
+	border-radius: 3px;
+	transition: 1s ease;
+  font-family: 'Titiullium Web', sans-serif;
+	text-align: center;
+}
+
+.end {
+	background: black;
+	color: white;
+	width: 80%;
+	margin: 35% auto;
+	padding: 20px 0;
+	border-radius: 3px;
+	box-shadow: 1px 1px 7px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.end h1 {
+	margin: 5px;
+	text-align: center;
+}
+
+.end p {
+	padding: 10px;
+	text-align: center;
+}
+
+.end a {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 4px;
+	background: rgb(61, 61, 61);
+  text-align: center;
+}
+
+.end a:hover {
+	box-shadow: 1px 1px 7px rgba(0,0,0,0.404);
+	transition: 0.4s;
+	text-align: center;
+}
+
+.title h1 {
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.title a {
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+/* Display properties */
+
+.L_or_D {
+	display: block;
+}
+
+.size {
+	display: none;
+}
+
+.milk {
+	display: none;
+}
+
+.end {
+	display: none;
+}
